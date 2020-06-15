@@ -5,11 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -25,14 +25,14 @@
           <div class="hour col-xs-2 col-sm-2 col-md-2 col-lg-2">
             9am
           </div>
-          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" data-hour='9' id='div9'></textarea>
+          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" id='div9'></textarea>
           <button class="col-xs-1 col-sm-1 col-md-1 col-lg-1 fas fa-save btn-block saveBtn" id="btn9"></button>
         </div>
         <div class='row time-block'>
           <div class="hour col-xs-2 col-sm-2 col-md-2 col-lg-2">
             10am
           </div>
-          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" data-hour='10' id="div10"></textarea>
+          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" id="div10"></textarea>
           <button class="col-xs-1 col-sm-1 col-md-1 col-lg-1 fas fa-save btn-block saveBtn" id="btn10"></button>
 
         </div>
@@ -40,7 +40,7 @@
           <div class="hour col-xs-2 col-sm-2 col-md-2 col-lg-2">
             11am
           </div>
-          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" data-hour='11' id="div11"></textarea>
+          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" id="div11"></textarea>
           <button class="col-xs-1 col-sm-1 col-md-1 col-lg-1 fas fa-save btn-block saveBtn" id="btn11"></button>
 
         </div>
@@ -48,7 +48,7 @@
           <div class="hour col-xs-2 col-sm-2 col-md-2 col-lg-2">
             12am
           </div>
-          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" data-hour='12' id="div12"></textarea>
+          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" id="div12"></textarea>
           <button class="col-xs-1 col-sm-1 col-md-1 col-lg-1 fas fa-save btn-block saveBtn" id="btn12"></button>
 
         </div>
@@ -56,7 +56,7 @@
           <div class="hour col-xs-2 col-sm-2 col-md-2 col-lg-2">
             1pm
           </div>
-          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" data-hour='13' id="div1"></textarea>
+          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" id="div1"></textarea>
           <button class="col-xs-1 col-sm-1 col-md-1 col-lg-1 fas fa-save btn-block saveBtn" id="btn1"></button>
 
         </div>
@@ -64,7 +64,7 @@
           <div class="hour col-xs-2 col-sm-2 col-md-2 col-lg-2">
             2pm
           </div>
-          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" data-hour='14' id="div2"></textarea>
+          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" id="div2"></textarea>
           <button class="col-xs-1 col-sm-1 col-md-1 col-lg-1 fas fa-save btn-block saveBtn" id="btn2"></button>
 
         </div>
@@ -72,7 +72,7 @@
           <div class="hour col-xs-2 col-sm-2 col-md-2 col-lg-2">
             3pm
           </div>
-          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" data-hour='15' id="div3"></textarea>
+          <textarea class="future col-xs-9 col-sm-9 col-md-9 col-lg-9" id="div3"></textarea>
           <button class="col-xs-1 col-sm-1 col-md-1 col-lg-1 fas fa-save btn-block saveBtn" id="btn3"></button>
 
         </div>
@@ -92,12 +92,11 @@
           <button class="col-xs-1 col-sm-1 col-md-1 col-lg-1 fas fa-save btn-block saveBtn" id="btn5"></button>
         </div>
       </div>
+      <br><br>
     </div>
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/moment.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 
 </html>
