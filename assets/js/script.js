@@ -15,7 +15,7 @@ $('.saveBtn').click(function () {
     localStorage.setItem('sched', schedString)
 });
 
-// iIf local storage has data, get it and parse it back to the textarea via Json.
+// If local storage has data, get it and parse it back to the textarea via Json.
 
 let storage = localStorage.getItem('sched');
 
@@ -24,11 +24,10 @@ if (storage) {
 } else {
     for (let i = 0; i <= 17; i++) {
         sched[i] = ''
-        console.log("Nothing is saved to local storage.")
     }
 };
 
-// Using "for loop" for attributes and objects and classes defined with css to change the color of the rows.
+// Using for loop for items defined with css to change the color of the rows.
 
 for (let key in sched) {
 
@@ -48,4 +47,4 @@ for (let key in sched) {
             .val(sched[key])
             .addClass("present")
     }
-}
+};
