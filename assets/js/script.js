@@ -45,6 +45,6 @@ for (let key in sched) {
         $("[data-time=" + key + "]")
             .find('.description')
             .val(sched[key])
-            .addClass("present")
+            .addClass("present");
     }
 };
